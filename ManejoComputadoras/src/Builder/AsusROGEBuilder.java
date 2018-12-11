@@ -15,7 +15,7 @@ public class AsusROGEBuilder extends ComputadorBuilder{
 	public void BuildInterna() {
 		
 		computador.setRam(32);
-		computador.setTipoRam("ddr");
+		computador.setTipoRam("ddr4");
 		computador.setAlmacenamiento(1000);
 		computador.setTipoAlmacenamiento("HDD");
 		computador.setPlaca(new Mainboard("Strix", "x99"));
